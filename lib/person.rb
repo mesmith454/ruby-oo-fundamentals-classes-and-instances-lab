@@ -1,5 +1,10 @@
 class Person
-    #code
+    def talk 
+        puts "Hello, world!"
+    end
+    def walk
+        puts "The person is walking."
+    end
 end
 
 adele_goldberg = Person.new
